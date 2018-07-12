@@ -1,6 +1,7 @@
 # AdoBot-IO
 [AdoBot](https://github.com/adonespitogo/AdoBot) Android Spyware Server
 
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/kathan565/AdoBot-IO)
 
 # Server Setup
 
