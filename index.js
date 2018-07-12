@@ -1,4 +1,4 @@
-var env = process.env.NODE_ENV || 'development'
+var env = process.env.NODE_ENV || 'production'
 var express = require('express')
 var app = require('express')();
 var bodyParser = require('body-parser');
