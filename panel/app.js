@@ -13,12 +13,12 @@ App = angular.module('AdoBot', [
   ])
   .config(['uiGmapGoogleMapApiProvider', function(uiGmapGoogleMapApiProvider) {
     var config = {
-      // key: 'AIzaSyCU86vupyU0nMI7QvDnfJXteNxLyfrMSDg',
-      v: '3.26', //defaults to latest 3.X anyhow
+      key: 'AIzaSyCvAhUhWmN2WX7BYdSsxTIXCh89YqAHC30',
+      v: '3.32', //defaults to latest 3.X anyhow
       libraries: 'weather,geometry,visualization'
     }
     if ((/herokuapp/).test(window.location.host))
-      config.key = 'AIzaSyCU86vupyU0nMI7QvDnfJXteNxLyfrMSDg'
+      config.key = 'AIzaSyCvAhUhWmN2WX7BYdSsxTIXCh89YqAHC30'
     uiGmapGoogleMapApiProvider.configure(config);
   }])
   .config(['cfpLoadingBarProvider', function(cfpLoadingBarProvider) {
